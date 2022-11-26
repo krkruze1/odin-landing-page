@@ -9,13 +9,17 @@ body{
 
 .hero {
     background-color: #1f2937;
-    
+    min-width: 100%;
+    min-height: 450px;
+    box-sizing: border-box;
+    padding: 0 15%;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-header {
+header.hh {
+    margin-top: 16px;
     display: flex;
     justify-content: space-between;
 }
@@ -27,6 +31,15 @@ header {
 
 .content {
     display:flex;
+    flex: 1;
+    align-items: center;
+}
+
+.container-1 {
+    display: flex;
+    flex:1;
+    align-items: center;
+    gap: 10%;
 }
 
 .main {
@@ -37,17 +50,24 @@ header {
     color:#f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    
+}
+
+.hero-image, .main-text, .secondary {
+    margin: 0;
 }
 
 a, .secondary {
     font-size: 18px;
     color: #e5e7eb;
+
 }
 
 .sign-up {
-    padding: 16px;
+    padding: 8px 16px;
     flex: 1;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ul {
@@ -62,11 +82,59 @@ a {
     text-decoration: none;
 }
 
+.hero-image{
+    background-color: darkgrey;
+    align-self: stretch;
+    flex: 1;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     background-color: #3882f6;
+    border: none;
+    border-radius: 12px; 
 }
+
+.container-2 {
+    margin: 0 5%;
+    display: flex;
+    flex:1;
+    align-items: center;
+    gap: 32px;
+}
+
+.buttons {
+    margin: 0 15%;
+    min-height: 450px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.button {
+    
+}
+
+.quote {
+    background-color: #e5e7eb;
+    width: 100%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
+    color: #1f2937;
+}
+
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    width: 100%;
+    padding: 36px 0;
+    text-align: center;
 }
 
