@@ -1,5 +1,5 @@
 body{
-    font-family: 'roboto', sans-serif;
+    font-family: cursive;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -12,7 +12,7 @@ body{
     min-width: 100%;
     min-height: 450px;
     box-sizing: border-box;
-    padding: 0 15%;
+    padding: 0 15% 2% 15%;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -50,9 +50,6 @@ header.hh {
     color:#f9faf8;
     font-size: 48px;
     font-weight: bolder;
-}
-
-.hero-image, .main-text, .secondary {
     margin: 0;
 }
 
@@ -83,26 +80,24 @@ a {
 }
 
 .hero-image{
-    background-color: darkgrey;
+    background-color: #1f2937;
     align-self: stretch;
     flex: 1;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: contain;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
 }
 
 button {
     border: none;
     border-radius: 12px; 
-}
-
-.container-2 {
-    margin: 0 5%;
-    display: flex;
-    flex:1;
-    align-items: flex-start;
-    gap: 32px;
 }
 
 .buttons {
@@ -116,11 +111,30 @@ button {
     text-align: center;
 }
 
+.container-2 {
+    margin: 0 5%;
+    display: flex;
+    flex:1;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.button {
+    flex:1;
+}
+
+.button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .option {
-    background-color: #f9faf8;
-    border: 1px solid #3882f6;
-    min-width: 150px;
-    min-height: 150px;
+    background-color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+    
 }
 
 .quote {
@@ -159,6 +173,7 @@ button {
 
 .in-call {
     border: 1px solid #f9faf8;
+    align-self: center;
 }
 
 footer {

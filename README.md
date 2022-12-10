@@ -3,3 +3,4 @@ Landing page assignment for odin project.  For educational purposes only.  Meant
 Guides from Odin Project: 
 ![Webpage Layout](./01.png)
 ![Style Guide](02.png)
+images sourced from finalfantasy.fandom.com
